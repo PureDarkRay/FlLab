@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Blog</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">Saharsh Bhartiya</div>
+            <nav>
+                <ul>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Newsletter</a></li>
+                </ul>
+            </nav>
+            <div class="dark-mode-toggle">
+                <img src="icons/moon.png" alt="Sun" class="toggle-icon sun-icon">
+                <img src="icons/sun.png " alt="Moon" class="toggle-icon moon-icon hidden">
+            </div>
+            
+        </div>
+    </header>
+
+    <main>
+        <h1 class="main-heading">THE BLOG</h1>
+
+        <section class="recent-posts">
+            <h2>Recent blog posts</h2>
+            <div class="posts-grid recent">
+                <!-- Post 1 -->
+                <div class="post recent-post">
+                    <img src="images/Image.svg" alt="Post Image 1" class="post-image">
+                    <div class="post-content">
+                        <span class="post-author">Olivia Rhye • 1 Jan 2023</span>
+                        <h3 class="post-title">UX review presentations</h3>
+                        <p class="post-description">How do you create compelling presentations that wow your colleagues and impress your managers?</p>
+                        <span class="post-tags">Design, Research, Presentation</span>
+                    </div>
+                </div>
+                <!-- Post 2 -->
+                <div class="post recent-post">
+                    <img src="images/Image-1.svg" alt="Post Image 2" class="post-image">
+                    <div class="post-content">
+                        <span class="post-author">Phoenix Baker • 1 Jan 2023</span>
+                        <h3 class="post-title">Migrating to Linear 101</h3>
+                        <p class="post-description">Linear helps streamline software projects, sprints, tasks, and bug tracking. Here's how to get...</p>
+                        <span class="post-tags">Design, Research</span>
+                    </div>
+                </div>
+                <!-- Post 3 -->
+                <div class="post recent-post large-post">
+                    <img src="images/Image-2.svg" alt="Post Image 3" class="post-image">
+                    <div class="post-content">
+                        <span class="post-author">Olivia Rhye • 1 Jan 2023</span>
+                        <h3 class="post-title">Grid system for better Design User Interface</h3>
+                        <p class="post-description">A grid system is a design tool used to arrange content on a webpage. It is a series of vertical and horizontal lines...</p>
+                        <span class="post-tags">Design, Interface</span>
+                    </div>
+                </div>
+                <!-- Post 4 -->
+                <div class="post recent-post">
+                    <img src="images/Image-3.svg" alt="Post Image 4" class="post-image">
+                    <div class="post-content">
+                        <span class="post-author">Lana Steiner • 1 Jan 2023</span>
+                        <h3 class="post-title">Building your API Stack</h3>
+                        <p class="post-description">The rise of RESTful APIs has been met by a rise in tools for creating, testing, and managing...</p>
+                        <span class="post-tags">Design, Research</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="all-posts">
+            <h2>All blog posts</h2>
+            <div class="posts-grid all">
+                <!-- Post 5 -->
+                <div class="post">
+                    <img src="images/Image-4.svg" alt="Post Image 5" class="post-image">
+                    <div class="post-content">
+                        <span class="post-author">Alec Whitten • 1 Jan 2023</span>
+                        <h3 class="post-title">Bill Walsh leadership lessons</h3>
+                        <p class="post-description">Like to know the secrets of transforming a 2-14 team into a 3x Super Bowl winning Dynasty?</p>
+                        <span class="post-tags">Leadership, Management</span>
+                    </div>
+                </div>
+
+                <!--pOST 6-->
+                <div class="post">
+                    <img src="images/Image-5.svg" alt="Post Image 5" class="post-image">
+                    <div class="post-content">
+                        <span class="post-author">Demi Wllkinson • 1 Jan 2023</span>
+                        <h3 class="post-title">PM Mental Model</h3>
+                        <p class="post-description">Mental models are simple expressions of complex processes of relationships.</p>
+                        <span class="post-tags">Product, Research, Frameworks</span>
+                    </div>
+                </div>
+                <!-- Add more posts here -->
+            </div>
+        </section>
+
+
+        <div class="pagination">
+            <button class="pagination-button prev" disabled>← Previous</button>
+            <ul class="page-numbers">
+                <li class="page-number active">1</li>
+                <li class="page-number">2</li>
+                <li class="page-number">3</li>
+                <li class="page-number">...</li>
+                <li class="page-number">10</li>
+            </ul>
+            <button class="pagination-button next">Next →</button>
+        </div>
+        
+    </main>
+
+    <footer>
+        <p>© 2023 • <a href="#">Twitter</a> • <a href="#">LinkedIn</a> • <a href="#">Email</a> • <a href="#">RSS feed</a> • <a href="#">Add to Feedly</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
